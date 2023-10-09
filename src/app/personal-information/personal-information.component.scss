@@ -30,7 +30,7 @@ table tr td{
 }
 
 table tr td:nth-child(even){
-    color: var(--green);
+    color: white;
 }
 
 section p{
@@ -52,3 +52,7 @@ section p:not(:first-child){
 :host.pc h1{
     grid-column: 1/3;
 }
+
+
+
+

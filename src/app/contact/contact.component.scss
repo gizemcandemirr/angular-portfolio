@@ -1,0 +1,449 @@
+$hair: #A37542;
+$skin: #FBCAA0;
+$skinshadow: #e5b187;
+$eye: #b28960;
+$mouth: #E68273;
+$shirt: #556270;
+$pants: #274B66;
+$shoes: #232526;
+$dark_purple: #4B4A56;
+
+$pixel: 5;
+$halfpixel: 2;
+
+.me {
+    width: 350px;
+  height: 350px;
+    position: relative;
+    &:after {
+        content: "";
+        width: 5px;
+        height: 2px;
+        margin-left: 10px;
+        position: absolute;
+        z-index: 99;
+    box-shadow: 18px 32px 0 $mouth, 
+                    20px 32px 0 $mouth,
+                    25px 32px 0 $mouth,
+                    15px 45px 0 $skinshadow,
+                    15px 47px 0 $skinshadow,
+                    18px 45px 0 $skinshadow;
+    }
+
+    &:before {
+        content: '';
+        width: $pixel+px;
+        height: $pixel+px;
+        margin-left: 10px;
+        position: absolute;
+        z-index: 90;
+        box-shadow: 3*$pixel+px       -1*$pixel+px $hair,
+                    4*$pixel+px -1*$pixel+px $hair,
+                    25px -5px 0 $hair,
+
+                    $pixel+px 0 $hair,
+                    2*$pixel+px 0 $hair,
+                    3*$pixel+px 0 $hair,
+                    4*$pixel+px 0 $hair,
+                    5*$pixel+px 0 $hair,
+                    6*$pixel+px 0 $hair,
+                    7*$pixel+px 0 $hair,
+
+                    0 $pixel+px $hair,
+                    $pixel+px $pixel+px $hair,
+                    2*$pixel+px $pixel+px $hair,
+                    3*$pixel+px $pixel+px $hair,
+                    4*$pixel+px $pixel+px $hair,
+                    5*$pixel+px $pixel+px $hair,
+                    6*$pixel+px $pixel+px $hair,
+                    7*$pixel+px $pixel+px $hair,
+                    8*$pixel+px $pixel+px $hair,
+                    
+                    -1*$pixel+px 2*$pixel+px $hair,
+                    0 2*$pixel+px $hair,
+                    $pixel+px 2*$pixel+px $hair,
+                    2*$pixel+px 2*$pixel+px $hair,
+                    3*$pixel+px 2*$pixel+px $hair,
+                    4*$pixel+px 2*$pixel+px $hair,
+                    5*$pixel+px 2*$pixel+px $hair,
+                    6*$pixel+px 2*$pixel+px $hair,
+                    7*$pixel+px 2*$pixel+px $hair,
+                    8*$pixel+px 2*$pixel+px $hair,
+                    9*$pixel+px 2*$pixel+px $hair,
+                    
+                    -1*$pixel+px 3*$pixel+px $hair,
+                    0 3*$pixel+px $hair,
+                    $pixel+px 3*$pixel+px $hair,
+                    2*$pixel+px 3*$pixel+px $hair,
+                    3*$pixel+px 3*$pixel+px $hair,
+                    4*$pixel+px 3*$pixel+px $hair,
+                    5*$pixel+px 3*$pixel+px $hair,
+                    6*$pixel+px 3*$pixel+px $hair,
+                    7*$pixel+px 3*$pixel+px $hair,
+                    8*$pixel+px 3*$pixel+px $hair,
+                    9*$pixel+px 3*$pixel+px $hair,
+                    
+                    -1*$pixel+px 4*$pixel+px $hair,
+                    0 4*$pixel+px $skin,
+                    $pixel+px 4*$pixel+px $skin,
+                    2*$pixel+px 4*$pixel+px $eye,
+                    3*$pixel+px 4*$pixel+px $skin,
+                    4*$pixel+px 4*$pixel+px $skin,
+                    5*$pixel+px 4*$pixel+px $skin,
+                    6*$pixel+px 4*$pixel+px $eye,
+                    7*$pixel+px 4*$pixel+px $skin,
+                    8*$pixel+px 4*$pixel+px $skin,
+                    9*$pixel+px 4*$pixel+px $hair,
+                    
+                    -1*$pixel+px 5*$pixel+px $hair,
+                    0 5*$pixel+px $skin,
+                    $pixel+px 5*$pixel+px $skin,
+                    2*$pixel+px 5*$pixel+px $skin,
+                    3*$pixel+px 5*$pixel+px $skin,
+                    4*$pixel+px 5*$pixel+px $skin,
+                    5*$pixel+px 5*$pixel+px $skin,
+                    6*$pixel+px 5*$pixel+px $skin,
+                    7*$pixel+px 5*$pixel+px $skin,
+                    8*$pixel+px 5*$pixel+px $skin,
+                    9*$pixel+px 5*$pixel+px $hair,
+
+                    -1*$pixel+px 6*$pixel+px $hair,
+                    0 6*$pixel+px $skin,
+                    $pixel+px 6*$pixel+px $skin,
+                    2*$pixel+px 6*$pixel+px $skin,
+                    3*$pixel+px 6*$pixel+px $skin,
+                    4*$pixel+px 6*$pixel+px $skin,
+                    5*$pixel+px 6*$pixel+px $skin,
+                    6*$pixel+px 6*$pixel+px $skin,
+                    7*$pixel+px 6*$pixel+px $skin,
+                    8*$pixel+px 6*$pixel+px $skin,
+                    9*$pixel+px 6*$pixel+px $hair,
+
+                    -1*$pixel+px 7*$pixel+px $hair,
+                    0 7*$pixel+px $hair,
+                    $pixel+px 7*$pixel+px $skin,
+                    2*$pixel+px 7*$pixel+px $skin,
+                    3*$pixel+px 7*$pixel+px $skin,
+                    4*$pixel+px 7*$pixel+px $skin,
+                    5*$pixel+px 7*$pixel+px $skin,
+                    6*$pixel+px 7*$pixel+px $skin,
+                    7*$pixel+px 7*$pixel+px $skin,
+                    8*$pixel+px 7*$pixel+px $hair,
+                    9*$pixel+px 7*$pixel+px $hair,
+
+                    -2*$pixel+px 8*$pixel+px $skin,
+                    -1*$pixel+px 8*$pixel+px $hair,
+                    0 8*$pixel+px $hair,
+                    $pixel+px 8*$pixel+px $hair,
+                    2*$pixel+px 8*$pixel+px $skin,
+                    3*$pixel+px 8*$pixel+px $skin,
+                    4*$pixel+px 8*$pixel+px $skin,
+                    5*$pixel+px 8*$pixel+px $skin,
+                    6*$pixel+px 8*$pixel+px $skin,
+                    7*$pixel+px 8*$pixel+px $hair,
+                    8*$pixel+px 8*$pixel+px $hair,
+                    9*$pixel+px 8*$pixel+px $hair,
+
+                    -2*$pixel+px 9*$pixel+px $skin,
+                    -1*$pixel+px 9*$pixel+px $hair,
+                    0 9*$pixel+px $hair,
+                    $pixel+px 9*$pixel+px $hair,
+                    2*$pixel+px 9*$pixel+px $hair,
+                    3*$pixel+px 9*$pixel+px $skin,
+                    4*$pixel+px 9*$pixel+px $skin,
+                    5*$pixel+px 9*$pixel+px $skin,
+                    6*$pixel+px 9*$pixel+px $hair,
+                    7*$pixel+px 9*$pixel+px $hair,
+                    8*$pixel+px 9*$pixel+px $hair,
+                    9*$pixel+px 9*$pixel+px $hair,
+
+                    -2*$pixel+px 10*$pixel+px $skin,
+                    -1*$pixel+px 10*$pixel+px $skin,
+                    0 10*$pixel+px $shirt,
+                    $pixel+px 10*$pixel+px $shirt,
+                    2*$pixel+px 10*$pixel+px $shirt,
+                    3*$pixel+px 10*$pixel+px $shirt,
+                    4*$pixel+px 10*$pixel+px $shirt,
+                    5*$pixel+px 10*$pixel+px $shirt,
+                    6*$pixel+px 10*$pixel+px $shirt,
+                    7*$pixel+px 10*$pixel+px $shirt,
+                    8*$pixel+px 10*$pixel+px $shirt,
+                    9*$pixel+px 10*$pixel+px $hair,
+
+                    -1*$pixel+px 11*$pixel+px $hair,
+                    0 11*$pixel+px $shirt,
+                    $pixel+px 11*$pixel+px $shirt,
+                    2*$pixel+px 11*$pixel+px $shirt,
+                    3*$pixel+px 11*$pixel+px $shirt,
+                    4*$pixel+px 11*$pixel+px $shirt,
+                    5*$pixel+px 11*$pixel+px $shirt,
+                    6*$pixel+px 11*$pixel+px $shirt,
+                    7*$pixel+px 11*$pixel+px $shirt,
+                    8*$pixel+px 11*$pixel+px $shirt,
+                    9*$pixel+px 11*$pixel+px $hair,
+
+                    -1*$pixel+px 12*$pixel+px $hair,
+                    0 12*$pixel+px $hair,
+                    $pixel+px 12*$pixel+px $shirt,
+                    2*$pixel+px 12*$pixel+px $shirt,
+                    3*$pixel+px 12*$pixel+px $shirt,
+                    4*$pixel+px 12*$pixel+px $shirt,
+                    5*$pixel+px 12*$pixel+px $shirt,
+                    6*$pixel+px 12*$pixel+px $shirt,
+                    7*$pixel+px 12*$pixel+px $shirt,
+                    8*$pixel+px 12*$pixel+px $skin,
+                    9*$pixel+px 12*$pixel+px $hair,
+
+                    -1*$pixel+px 13*$pixel+px $hair,
+                    0 13*$pixel+px $hair,
+                    $pixel+px 13*$pixel+px $shirt,
+                    2*$pixel+px 13*$pixel+px $shirt,
+                    3*$pixel+px 13*$pixel+px $shirt,
+                    4*$pixel+px 13*$pixel+px $shirt,
+                    5*$pixel+px 13*$pixel+px $shirt,
+                    6*$pixel+px 13*$pixel+px $shirt,
+                    7*$pixel+px 13*$pixel+px $shirt,
+                    8*$pixel+px 13*$pixel+px $skin,
+                    9*$pixel+px 13*$pixel+px $hair,
+
+                    -1*$pixel+px 14*$pixel+px $hair,
+                    0 14*$pixel+px $hair,
+                    $pixel+px 14*$pixel+px $shirt,
+                    2*$pixel+px 14*$pixel+px $shirt,
+                    3*$pixel+px 14*$pixel+px $shirt,
+                    4*$pixel+px 14*$pixel+px $shirt,
+                    5*$pixel+px 14*$pixel+px $shirt,
+                    6*$pixel+px 14*$pixel+px $shirt,
+                    7*$pixel+px 14*$pixel+px $shirt,
+                    8*$pixel+px 14*$pixel+px $skin,
+                    9*$pixel+px 14*$pixel+px $hair,
+
+                    $pixel+px 15*$pixel+px $shirt,
+                    2*$pixel+px 15*$pixel+px $shirt,
+                    3*$pixel+px 15*$pixel+px $shirt,
+                    4*$pixel+px 15*$pixel+px $shirt,
+                    5*$pixel+px 15*$pixel+px $shirt,
+                    6*$pixel+px 15*$pixel+px $shirt,
+                    7*$pixel+px 15*$pixel+px $shirt,
+                    8*$pixel+px 15*$pixel+px $skin,
+
+                    $pixel+px 16*$pixel+px $pants,
+                    2*$pixel+px 16*$pixel+px $pants,
+                    3*$pixel+px 16*$pixel+px $pants,
+                    4*$pixel+px 16*$pixel+px $pants,
+                    5*$pixel+px 16*$pixel+px $pants,
+                    6*$pixel+px 16*$pixel+px $pants,
+                    7*$pixel+px 16*$pixel+px $pants,
+                    8*$pixel+px 16*$pixel+px $skin,
+
+                    $pixel+px 17*$pixel+px $pants,
+                    2*$pixel+px 17*$pixel+px $pants,
+                    3*$pixel+px 17*$pixel+px $pants,
+                    4*$pixel+px 17*$pixel+px $pants,
+                    5*$pixel+px 17*$pixel+px $pants,
+                    6*$pixel+px 17*$pixel+px $pants,
+                    7*$pixel+px 17*$pixel+px $pants,
+
+                    $pixel+px 18*$pixel+px $pants,
+                    2*$pixel+px 18*$pixel+px $pants,
+                    3*$pixel+px 18*$pixel+px $pants,
+                    5*$pixel+px 18*$pixel+px $pants,
+                    6*$pixel+px 18*$pixel+px $pants,
+                    7*$pixel+px 18*$pixel+px $pants,
+
+                    $pixel+px 19*$pixel+px $pants,
+                    2*$pixel+px 19*$pixel+px $pants,
+                    3*$pixel+px 19*$pixel+px $pants,
+                    5*$pixel+px 19*$pixel+px $pants,
+                    6*$pixel+px 19*$pixel+px $pants,
+                    7*$pixel+px 19*$pixel+px $pants,
+
+                    $pixel+px 20*$pixel+px $pants,
+                    2*$pixel+px 20*$pixel+px $pants,
+                    3*$pixel+px 20*$pixel+px $pants,
+                    5*$pixel+px 20*$pixel+px $pants,
+                    6*$pixel+px 20*$pixel+px $pants,
+                    7*$pixel+px 20*$pixel+px $pants,
+
+                    $pixel+px 21*$pixel+px $pants,
+                    2*$pixel+px 21*$pixel+px $pants,
+                    3*$pixel+px 21*$pixel+px $pants,
+                    5*$pixel+px 21*$pixel+px $pants,
+                    6*$pixel+px 21*$pixel+px $pants,
+                    7*$pixel+px 21*$pixel+px $pants,
+
+                    $pixel+px 22*$pixel+px $shoes,
+                    2*$pixel+px 22*$pixel+px $shoes,
+                    3*$pixel+px 22*$pixel+px $shoes,
+                    5*$pixel+px 22*$pixel+px $shoes,
+                    6*$pixel+px 22*$pixel+px $shoes,
+                    7*$pixel+px 22*$pixel+px $shoes;
+    }
+}
+
+
+.contact-container{
+    background-color: white;
+}
+
+.me-container{
+    padding-top:12vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.container {
+	display: flex;
+	position: relative;
+    margin-top:15vh;
+	width: 256px;
+	height: 256px;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box {
+	position: absolute;
+	width: 400px;
+}
+.login-box form {
+	width: 100%;
+	padding: 0 50px;
+}
+h2 {
+	font-size: 2em;
+	color: black;
+	text-align: center;
+}
+
+.input-box {
+	position: relative;
+	margin: 25px 0;
+}
+
+.input-box input {
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: 2px solid #000000;
+	outline: none;
+	border-radius: 40px;
+	font-size: 1em;
+	color: #fff;
+	padding: 0 20px;
+	transition: .5s ease;
+}
+.input-box input:focus,
+.input-box input:focus {
+	border-color: black;
+}
+
+.input-box label {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+	font-size: 1em;
+	color: #fff;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+	top: 1px;
+	font-size: 0.8em;
+	padding: 0 6px;
+	background: white;
+	color: black;
+}
+.login-button {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	font-size: 1.5em;
+	letter-spacing: .1em;
+	color: white;
+	background: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 5px 30px;
+	z-index: 1;
+	overflow: hidden;
+	transition: color 1s, box-shadow 1s;
+}
+
+.login-button:hover {
+	transition-delay: 0s, 1s;
+	color: #fff;
+	box-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px black,
+		0 0 80px black, 0 0 160px black;
+}
+
+.login-button::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -50%;
+	width: 0%;
+	height: 100%;
+	background: black;
+	transform: skewx(45deg);
+	z-index: -1;
+	transition: 1s;
+}
+.login-button:hover:before {
+	width: 100%;
+}
+.forget-password {
+	margin: -15px 0 10px;
+	text-align: center;
+}
+.forget-password a {
+	font-size: .85em;
+	color: black;
+	text-decoration: none;
+}
+.forget-password a:hover {
+	text-decoration: underline;
+}
+.sign-up-link {
+	margin: 20px 0 10px;
+	text-align: center;
+}
+.sign-up-link a {
+	font-size: 1em;
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+.sign-up-link a:hover {
+	text-decoration: underline;
+}
+.container span {
+	position: absolute;
+	left: 0;
+	width: 32px;
+	height: 6px;
+	background: black;
+	border-radius: 8px;
+	transform-origin: 128px;
+	transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+	animation: animate 3s linear infinite;
+	animation-delay: calc(var(--i) * (3s / 50))
+}
+@keyframes animate
+{
+	0%
+	{
+		background: black;
+	}
+	25%
+	{
+		background: white;
+	}
+}

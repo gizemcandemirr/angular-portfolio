@@ -1,12 +1,12 @@
 :host{
     display: block;
     padding: 4rem 2rem 6rem;
-    background-color: var(--dark-gray);
+    background-color: var(--gray-light);
     clip-path: polygon(0% 0%,100% 0%,100% 95%, 50% 100%, 0% 95%);
 }
 .container{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
 }
 .title{
     font-size: 4rem;
@@ -29,16 +29,15 @@
 }
 .name span:nth-of-type(1) span{
     font-size: 3rem;
-    color:var(--green)
+    color:#7f7f7f
 }
 .name span:nth-of-type(2){
     display: inline-block;
     font-size: 4rem;
-    color:var(--green);
+    color:var(--black);
     font-weight: bold;
     padding: 6x 0;
     letter-spacing: 8px;
-    text-shadow: 10px 8px 10px var(--black);
 }
 
 .profile{
@@ -47,23 +46,23 @@
     grid-row:2/3;
     margin:0 auto;
     position: relative;
-    clip-path: inset(0 round 0 0 25%);
 }
 .profile .profile-bg{
-    height: 75%;
-    width: 100%;
+    height: 80%;
+    width: 90%;
     bottom: 0%;
     position: absolute;
-    background-color: var(--green);
-    clip-path: inset(0 round 50% 0 0);
+    background-color: var(--black);
+    border-radius: 4vh;
+    box-shadow: 0 0 20px rgb(221, 221, 221);
 }
 .profile img{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     position: absolute;
-    left: 8vh;
-    top:14vh;
-    clip-path: inset(0 round 50% 0 );
+    left: 6vh;
+    top:12vh;
+    border-radius: 4vh;
 }
 
 :host.pc{
