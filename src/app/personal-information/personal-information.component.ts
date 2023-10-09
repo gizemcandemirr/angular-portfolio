@@ -14,7 +14,7 @@ export class PersonalInformationComponent implements OnInit {
     ['Interests', 'Cricket)'],
   ];
   aboutMe:string[]= [
-    'Hi, I am a software engineer with 3 years of experiece in software industry.'
+    'Hello! I am a passionate front-end developer with 3 years of hands-on experience, having honed my skills with cutting-edge technologies like Angular, React, Next.js, TypeScript, and JavaScript. My dedication lies in building intuitive and dynamic user interfaces that not only look good but also perform seamlessly.'
   ]
   constructor(){}
   ngOnInit(): void {
